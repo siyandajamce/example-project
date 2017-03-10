@@ -44,7 +44,7 @@ a{
 
   width: 100%;
   max-width: 1000px;
-  margin: 50px auto;;
+  margin: 50px auto;
 
 }
 #wrapper >main > .main-content-wrapper{
@@ -61,12 +61,52 @@ a{
 
 }
 .banner-title h1{
-  
+
 
 }
 .banner-text{
 
 
+}
+#contact-form{
+  display: flex;
+  flex-flow: row wrap;
+  padding 25px;
+}
+#contact-form .form-item{
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  margin: 15px auto;
+}
+#contact-form .form-item input,
+#contact-form .form-item textarea{
+  padding: 10px;
+  background: #ddd;
+  border: none;
+}
+#contact-form .form-item button{
+  padding: 30px;
+  font-size: 20px;
+  border: none;
+  background: #8e44ad;
+  color: #ecf0f1;
+  max-width: 300px;
+  margin: 50px auto;
+
+
+}
+#contact-form .form-item input:focus,
+#contact-form .form-item textarea:focus{
+outline: none;
+}
+
+
+.form-item:nth-child(1),
+.form-item:nth-child(2){
+
+
+  width: 50%;
 }
 #wrapper > footer{
 
